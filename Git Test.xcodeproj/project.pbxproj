@@ -21,6 +21,7 @@
 		BFCE18A518DAC8D70075DF60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCE188718DAC8D70075DF60 /* UIKit.framework */; };
 		BFCE18AD18DAC8D70075DF60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFCE18AB18DAC8D70075DF60 /* InfoPlist.strings */; };
 		BFCE18AF18DAC8D70075DF60 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE18AE18DAC8D70075DF60 /* Git_TestTests.m */; };
+		BFCE18BA18DACCB40075DF60 /* DCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE18B918DACCB40075DF60 /* DCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BFCE18AA18DAC8D70075DF60 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		BFCE18AC18DAC8D70075DF60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFCE18AE18DAC8D70075DF60 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		BFCE18B818DACCB40075DF60 /* DCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTest.h; sourceTree = "<group>"; };
+		BFCE18B918DACCB40075DF60 /* DCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				BFCE189518DAC8D70075DF60 /* Main.storyboard */,
 				BFCE189818DAC8D70075DF60 /* DCViewController.h */,
 				BFCE189918DAC8D70075DF60 /* DCViewController.m */,
+				BFCE18B818DACCB40075DF60 /* DCTest.h */,
+				BFCE18B918DACCB40075DF60 /* DCTest.m */,
 				BFCE189B18DAC8D70075DF60 /* Images.xcassets */,
 				BFCE188A18DAC8D70075DF60 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				BFCE189018DAC8D70075DF60 /* main.m in Sources */,
 				BFCE189A18DAC8D70075DF60 /* DCViewController.m in Sources */,
+				BFCE18BA18DACCB40075DF60 /* DCTest.m in Sources */,
 				BFCE189418DAC8D70075DF60 /* DCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
